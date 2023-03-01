@@ -1,0 +1,70 @@
+head{
+    text-align: center;
+}
+
+#nav{
+    font-size: 30px;
+    color: orangered;
+    margin-left: 43%;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input{
+    width: 90%;
+    margin-top: 3%;
+    /* margin-bottom: 2%; */
+    margin-left: 5%;
+    height: 25px;
+    border-radius: 3px;
+}
+
+#submit{
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 3px;
+}
+
+.form{
+    background-color: rgb(200, 193, 193);
+    margin-left: 2%;
+    height: 84vh;
+}
+
+.call, .whatsapp, .email{
+    text-align: center;
+    height: 27.3vh;
+}
+
+.whatsappBtn, .emailBtn{
+    width: 150px;
+
+}
+
+.callBtn, .whatsappBtn, .emailBtn{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.callBtn{
+    background-color: rgb(77, 34, 34);
+}
+
+.whatsappBtn{
+    background-color: rgb(35, 207, 35);
+}
+
+.emailBtn{
+    background-color: rgb(49, 48, 43);
+}
+
+p{
+    font-weight: bolder;
+}
+

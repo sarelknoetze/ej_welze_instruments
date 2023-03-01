@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactUs</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <head>
+        <p id="nav">CONTACT US</p>
+    </head>
+    <div class="hero">
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Name:"><br>
+                <input type="text" placeholder="Surname:"><br>
+                <input type="email" placeholder="Email:"><br>
+                <input type="number" placeholder="Number:"><br>
+                <button type="submit" id="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="contactInfo">
+            <div class="call">
+                
+                <div>
+                    <p><i class="fa fa-phone"> </i> Call us for enquiries:</p>
+                </div>
+                <div>
+                    <button class="callBtn" id="ebenCall" onclick="eCall()"><i class="fa fa-at"> </i> Eben: 081 475 3717</button>
+                    <button class="callBtn" onclick="jCall()"><i class="fa fa-at"> </i> JP: 081 442 8757</button>
+                </div>
+            </div>
+            <div class="whatsapp">
+                <p><i class="fa fa-whatsapp"> </i> Whatsapp us:</p>
+                <button class="whatsappBtn" id="eWhatsapp" onclick="eWhatsapp()"><i class="fa fa-at"> </i> Eben</button>
+                <button class="whatsappBtn" onclick="jWhatsapp()"><i class="fa fa-at"> </i> JP</button>
+            </div>
+            <div class="email">
+                <p><i class="fa fa-envelope"> </i> Email us: at <br>
+                    @ <a href="#" onclick="eEmail()" target="_blank"> Ejwelzeinstruments@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="contact.js"></script>
+</body>
+</html>
